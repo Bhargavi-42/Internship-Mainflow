@@ -19,12 +19,12 @@ list1[1] = 5
 print("List after modifying an element:", list1)
 
 # Dictionary
-# Creating a Dictinary
+#Creating a Dictinary
 book = {    "name": "Naari",
             "pages": 200,
             "author": "Vamshi krishna"
 }
-# Print the dictionary
+#Print the dictionary
 print("\nBook Information:",book)
 
 #Adding an element to the dictionary
