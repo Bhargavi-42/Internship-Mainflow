@@ -1,0 +1,21 @@
+# Mainflow
+# Task-2
+# Pandas
+
+#Import the dataset and display
+import pandas as pd
+df = pd.read_csv("/home/bhargavi/Downloads/IPL.csv")
+df.head(4)
+
+#accessing columns
+df[df['SIXERS']>=50]
+
+#applying functions
+df[df["COUNTRY"]=="IND"].count()
+df.sort_values(["SIXERS","WKTS"]).head()
+df.isnull().head(4)
+df.dropna()
+df["AGE"].fillna(df["AGE"].mode())
+df.describe()
+df.tail(8)
+df.skew()
